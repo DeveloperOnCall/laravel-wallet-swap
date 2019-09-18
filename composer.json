@@ -12,7 +12,8 @@
     "laravel-wallet",
     "virtual",
     "wallet",
-    "payments"
+    "payments",
+    "multi-tenant"
   ],
   "minimum-stability": "stable",
   "homepage": "https://github.com/bavix/laravel-wallet",
@@ -25,7 +26,7 @@
   ],
   "require": {
     "php": "^7.1",
-    "bavix/laravel-wallet": "^3.1",
+    "bavix/laravel-wallet": "dev-multi-tenant",
     "florianv/laravel-swap": "^2.0",
     "nyholm/psr7": "^1.1",
     "php-http/curl-client": "^2.0",
